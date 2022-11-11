@@ -11,17 +11,25 @@ implementing the engineering and software best practices.
 The root directory contains:
 
 `Guide.ipynb`                        Given: Getting started and troubleshooting tips
+
 `churn_notebook.ipynb`               Given: Contains the code to be refactored
+
 `churn_library.py`                   Implemented: Main functions
+
 `churn_script_logging_and_tests.py`  Implemented tests and logs
+
 `README.md`            
+
 `data`                               folder contains the customer data
+
 `images`                             folder contains EDA and classification results on train/test data
+
 `logs`                               folder contains testing log results
-'models`                             folder contains trained models
+
+`models`                             folder contains trained models
  
 ## Running Files
-Install mamba [https://pypi.org/project/mamba/].
+Install mamba[https://pypi.org/project/mamba/].
 Create a conda environment:
 
 ```bash
