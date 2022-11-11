@@ -33,7 +33,7 @@ Install [mamba](https://pypi.org/project/mamba/).
 Create a conda environment:
 
 ```bash
-conda create -n customer_churn python=3.8
+mamba create -n customer_churn python=3.8
 ```
 
 Activate the environment:
