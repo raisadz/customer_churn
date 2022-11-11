@@ -3,30 +3,30 @@
 Project **Predict Customer Churn** of ML DevOps Engineer Nanodegree Udacity
 
 ## Project Description
-The goal of the project is to implement best coding practices on the provided churn_notebook.ipynb. 
+The goal of the project is to implement best coding practices on the provided `churn_notebook.ipynb`. 
 The notebook contains the solution to identify credit card customers that are most likely to churn, but without 
 implementing the engineering and software best practices.
 
 ## Files and data description
 The root directory contains:
 
-`Guide.ipynb`                        Given: Getting started and troubleshooting tips
+`Guide.ipynb`                        Given: Getting started and troubleshooting tips;
 
-`churn_notebook.ipynb`               Given: Contains the code to be refactored
+`churn_notebook.ipynb`               Given: Contains the code to be refactored;
 
-`churn_library.py`                   Implemented: Main functions
+`churn_library.py`                   Implemented: Main functions;
 
-`churn_script_logging_and_tests.py`  Implemented tests and logs
+`churn_script_logging_and_tests.py`  Implemented tests and logs;
 
-`README.md`            
+`README.md`                          Project description and the installation instructions;
 
-`data`                               folder contains the customer data
+`data`                               folder contains the customer data;
 
-`images`                             folder contains EDA and classification results on train/test data
+`images`                             folder contains EDA and classification results on train/test data;
 
-`logs`                               folder contains testing log results
+`logs`                               folder contains testing log results;
 
-`models`                             folder contains trained models
+`models`                             folder contains trained models;
  
 ## Running Files
 Install [mamba](https://pypi.org/project/mamba/).
