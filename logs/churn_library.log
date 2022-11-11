@@ -1,0 +1,6 @@
+root - INFO - SUCCESS: Testing import_data
+root - INFO - SUCCESS: Testing add_target
+root - INFO - SUCCESS: Testing perform_eda
+root - INFO - SUCCESS: Testing encoder_helper
+root - INFO - SUCCESS: testing perform_train_test_split
+root - INFO - SUCCESS: testing train_models
