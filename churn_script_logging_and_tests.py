@@ -1,5 +1,8 @@
 """
 Testing main functions and logging errors
+
+Date: November 2022
+Author: Raisa
 """
 
 import logging

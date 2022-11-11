@@ -1,5 +1,8 @@
 """
 Main functions for customer churn task
+
+Date: November 2022
+Author: Raisa
 """
 
 import os
@@ -68,26 +71,37 @@ def perform_eda(df_in, path_eda=PATH_EDA):
     # plot and save churn distribution
     fig = plt.figure(figsize=(20, 10))
     df_in["Churn"].hist()
+    plt.title("Churn distribution")
+    plt.xlabel("Value")
+    plt.ylabel("Count")
     fig.savefig(f"{path_eda}/churn_distribution.png")
 
     # plot and save customer age distribution
     fig = plt.figure(figsize=(20, 10))
     df_in["Customer_Age"].hist()
+    plt.title("Customer Age Distribution")
+    plt.xlabel("Value")
+    plt.ylabel("Count")
     fig.savefig(f"{path_eda}/customer_age_distribution.png")
 
     # plot and save marital status
     fig = plt.figure(figsize=(20, 10))
     df_in.Marital_Status.value_counts("normalize").plot(kind="bar")
+    plt.title("Marital Status Distribution")
+    plt.xlabel("Value")
+    plt.ylabel("Percent")
     fig.savefig(f"{path_eda}/marital_status_distribution.png")
 
     # plot and save transation distribution
     fig = plt.figure(figsize=(20, 10))
     sns.histplot(df_in["Total_Trans_Ct"], stat="density", kde=True)
+    plt.title("Distribution of the number of transactions")
     fig.savefig(f"{path_eda}/total_transaction_distribution.png")
 
     # plot and save heatmap of correlations
     fig = plt.figure(figsize=(20, 10))
     sns.heatmap(df_in.corr(), annot=False, cmap="Dark2_r", linewidths=2)
+    plt.title("Correlation matrix")
     plt.show()
     fig.savefig(f"{path_eda}/heatmap.png")
 
@@ -185,6 +199,7 @@ def train_models(
         cv_rfc.best_estimator_, features_test, target_test, ax=axes, alpha=0.8
     )
     lrc_plot.plot(ax=axes, alpha=0.8)
+    plt.title("ROC Curve")
     plt.show()
     fig.savefig(f"{path_results}/roc_curve_result.png")
 
