@@ -1,6 +1,6 @@
 # Predict Customer Churn
 
-- Project **Predict Customer Churn** of ML DevOps Engineer Nanodegree Udacity
+Project **Predict Customer Churn** of ML DevOps Engineer Nanodegree Udacity
 
 ## Project Description
 The goal of the project is to implement best coding practices on the provided churn_notebook.ipynb. 
@@ -29,7 +29,7 @@ The root directory contains:
 `models`                             folder contains trained models
  
 ## Running Files
-Install mamba[https://pypi.org/project/mamba/].
+Install [mamba](https://pypi.org/project/mamba/).
 Create a conda environment:
 
 ```bash
